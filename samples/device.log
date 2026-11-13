@@ -1,0 +1,33 @@
+2026-11-13 08:00:01 [INFO] [boot] Bootloader v2.4.1 started
+2026-11-13 08:00:02 [INFO] [kernel] Linux version 5.15.0-embedded
+2026-11-13 08:00:03 [INFO] [mmc] mmcblk0: 8GB flash detected
+2026-11-13 08:00:04 [INFO] [net] eth0: link up, 100Mbps full duplex
+2026-11-13 08:00:05 [DEBUG] [sensor] temp sensor 0 calibrated
+2026-11-13 08:00:09 [INFO] [app] telemetry service started
+2026-11-13 08:12:44 [WARN] [net] DHCP lease renewal took 4200 ms
+2026-11-13 08:30:10 [WARN] [net] packet loss 7% on eth0
+2026-11-13 08:31:10 [WARN] [net] packet loss 9% on eth0
+2026-11-13 08:32:10 [WARN] [net] packet loss 12% on eth0
+2026-11-13 08:33:10 [WARN] [net] packet loss 15% on eth0
+2026-11-13 08:34:10 [WARN] [net] packet loss 21% on eth0
+2026-11-13 08:35:02 [ERROR] [net] connection timed out to 10.0.0.5:8883
+2026-11-13 08:35:32 [ERROR] [net] connection timed out to 10.0.0.5:8883
+2026-11-13 08:36:02 [ERROR] [net] connection refused by 10.0.0.5:8883
+2026-11-13 09:02:15 [WARN] [sensor] i2c read retry on sensor 3
+2026-11-13 09:02:16 [ERROR] [sensor] i2c bus error on sensor 3, device not responding
+2026-11-13 09:15:00 [INFO] [app] telemetry batch uploaded (412 records)
+2026-11-13 09:40:21 [WARN] [thermal] CPU temperature 84C, throttling
+2026-11-13 09:41:21 [ERROR] [thermal] CPU overtemp: 96C, shutting down radios
+2026-11-13 09:41:50 [ERROR] [thermal] CPU overtemp: 98C
+2026-11-13 10:05:33 [WARN] [power] battery voltage low: 3.4V
+2026-11-13 10:20:48 [ERROR] [power] battery undervoltage detected: 3.1V
+2026-11-13 10:45:12 [WARN] [app] heap usage at 85%
+2026-11-13 10:52:30 [ERROR] [kernel] Out of memory: killed process 412 (telemetryd)
+2026-11-13 10:52:31 [ERROR] [kernel] oom-killer invoked, order=0
+2026-11-13 11:03:09 [ERROR] [mmc] I/O error, dev mmcblk0, sector 2048
+2026-11-13 11:03:10 [ERROR] [mmc] I/O error, dev mmcblk0, sector 2056
+2026-11-13 11:03:15 [ERROR] [fs] Remounting filesystem read-only
+2026-11-13 11:30:00 [FATAL] [kernel] Kernel panic - not syncing: watchdog timeout
+2026-11-13 11:30:05 [INFO] [boot] Bootloader v2.4.1 started
+2026-11-13 11:30:08 [INFO] [kernel] Recovered from unexpected reboot
+2026-11-13 11:31:00 [INFO] [app] telemetry service started

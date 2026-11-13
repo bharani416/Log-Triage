@@ -1,0 +1,14 @@
+2026-11-13 09:00:00 [INFO] [boot] system started
+2026-11-13 09:00:01 [ERROR] [mmc] I/O error on mmcblk0 sector 4096
+
+kernel: random unstructured text without any timestamp
+2026-11-13 09:00:0
+2026-13-45 99:99:99 [ERROR] [net] impossible date
+2026-11-13 09:00:02 [WEIRD] [net] unknown severity level
+2026-11-13 09:00:03 [ERROR] net missing brackets around module
+2026-11-13 09:00:04 [ERROR] [net]
+[31m binary junk from a corrupted UART capture 
+2026-11-13 09:00:05 [WARN] [net] connection timed out
+2026-11-13 09:00:06 [ERROR] [thermal] CPU overtemp: 97C
+2026-11-13 09:00:07 [ERROR] [mmc] I/O error on mmcblk0 sector 4104
+2026-11-13 09:00:08 [INFO] [app] last line has no newline
